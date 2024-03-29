@@ -130,6 +130,14 @@ cd ./src/
 sh train_aug.sh
 ```
 
+
+
+
+## Acknowledgement
+We inherited most of the frameworks from [TextZoom](https://github.com/JasonBoy1/TextZoom) Thanks for your contribution! [@JasonBoy1](https://github.com/JasonBoy1) 
+
+
+
 ## Contact
 
 If you have any questions, please create an issue or email [qrimalne@gmail.com](mailto:qrimalne@gmail.com).
