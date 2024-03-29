@@ -134,7 +134,7 @@ sh train_aug.sh
 
 
 ## Acknowledgement
-We inherited most of the frameworks from [TextZoom]([WenjiaWang0312/TextZoom: A super-resolution dataset of paired LR-HR scene text images (github.com)](https://github.com/WenjiaWang0312/TextZoom)) Thanks for your contribution! [@WenjiaWang](https://github.com/WenjiaWang0312/) 
+We inherited most of the frameworks from [TextZoom](https://github.com/WenjiaWang0312/TextZoom). Thanks for your contribution! [@WenjiaWang](https://github.com/WenjiaWang0312/) 
 
 
 
