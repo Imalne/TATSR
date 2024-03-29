@@ -1,0 +1,57 @@
+MODEL:
+
+
+TRAIN:
+  train_data_dir: [
+    '/home/qinrui03/Datasets/TextZoom/train1',
+    '/home/qinrui03/Datasets/TextZoom/train2',
+  ]
+  batch_size: 512
+  width: 128
+  height: 32
+  epochs: 500
+  cuda: True
+  ngpu: 1
+  workers: 10
+  resume: ''
+  ckpt_dir: '../ckpt/'
+  voc_type: 'all' #'digits lower upper all'
+  saveInterval: 200
+  displayInterval: 100 #display loss
+  adadelta: False
+  lr: 0.0005
+  adam: True
+  beta1: 0.5
+  manualSeed: 1234
+  max_len: 100
+  keep_ratio: False
+  down_sample_scale: 2
+  loss_type: 'mse'
+  dataset:
+    heat_map: False
+  scheduler:
+    type: "none"
+    step: [0, 350, 450]
+
+  VAL:
+    val_data_dir: [
+      '/home/qinrui03/Datasets/TextZoom/test/hard',
+      '/home/qinrui03/Datasets/TextZoom/test/easy',
+      '/home/qinrui03/Datasets/TextZoom/test/medium',
+    ]
+    n_vis: 10
+    vis_dir: 'demo'
+    valInterval: 500 #-1, val at the end of epoch
+    rec_pretrained: '/home/qinrui03/TextSR/2022-01-21/pretrained_weights/Aster_demo.pth.tar'
+    moran_pretrained: '/home/qinrui03/TextSR/2022-01-21/pretrained_weights/MORAN_demo.pth'
+    crnn_pretrained: '/home/qinrui03/TextSR/2022-01-21/pretrained_weights/crnn.pth'
+
+TEST:
+  checkpoint: ''
+  test_data_dir: [
+  ]
+
+CONVERT:
+  image_dir:
+  lmdb_dir:
+  n_convert: 10

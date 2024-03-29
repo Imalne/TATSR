@@ -1,0 +1,1 @@
+Move the STR model weights here
