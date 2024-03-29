@@ -1,4 +1,4 @@
-# Scene Text Image Super-Resolution via Content Perceptual Loss and Criss-Cross Transformer Blocks [[Arxiv]](https://arxiv.org/abs/2210.06924)
+# Scene Text Image Super-Resolution via Content Perceptual Loss and Criss-Cross Transformer Blocks [[Arxiv]](https://arxiv.org/abs/2210.06924)(accepted by IJCNN 2024)
 
 ![image-20240329235737207](./figures/teasor.png)
 
