@@ -1,6 +1,9 @@
 ./ckpt/
 ./pretrained_weights/
 ./figures/
+./ckpt/*
+./pretrained_weights/*
+./figures/*
 
 
 # Byte-compiled / optimized / DLL files
